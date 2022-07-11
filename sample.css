@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/**width: 70%;**/
+	padding: 15%;
+}
+
+.container {
+	padding: 20px;
+	background-color: white;
+	width: 80%;
+}
+
+.product{
+	display: flex;
+	justify-content: space-between;
+}
+.Sizes {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+.heart{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.decision{
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	
+}
+a:active {
+	background-color: black;
+	border-radius: 20px;
+	width: auto;
+	padding: 10px;
+	
+}
+.buy {
+	border-radius: 25px;
+	width: auto;
+	padding: 8px;
+	background: #999999;
+
+}
+.product, .Sizes, .heart, p {
+	padding: 10px 0px;
+}
+
+.XS, #actv{
+	border-radius: 15px;
+	width: auto;
+	padding: 8px;
+	background: #000;
+	color: white;
+}
+
+
+/**@media (max-width: 900px) {
+	body {
+		background: black;
+		width: auto;
+		margin: 20px auto;
+	}
+		.main-container, .container, .product, .decision {
+		display: block;
+	}
+	
+	.Sizes {
+		width: 80px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	#actv {
+		margin-bottom: 10px;
+	}
+	
+	.loverep {
+		width: 25px;
+		height: 25px;
+	}
+}**/
+
+@media (max-width: 768px) {
+	.main-container, .container, .product, .decision {
+		display: block;
+	}
+	
+	.Sizes {
+		width: 150px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.buy{
+		margin: 10px;
+	}
+	.decision {
+		width: 50%;	
+		align-items: center;
+	}
+	.loverep {
+		width: 40px;
+		height: 40px;
+	}
+}
