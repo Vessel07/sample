@@ -10,7 +10,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/**width: 70%;**/
 	padding: 15%;
 }
 
@@ -100,7 +99,9 @@ a:active {
 	.main-container, .container, .product, .decision {
 		display: block;
 	}
-	
+	.main-container{
+		padding: 15%;
+	}
 	.Sizes {
 		width: 150px;
 		justify-content: space-between;
