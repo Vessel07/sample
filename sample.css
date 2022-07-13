@@ -6,11 +6,16 @@
 	box-sizing:border-box;
 }
 
+body{
+	padding: 15%;
+}
 .main-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 15%;
+	padding: 10px;
+	box-shadow: 5px 5px 10px 0 black;
+	border-radius: 20px;
 }
 
 .container {
@@ -70,9 +75,8 @@ a:active {
 }
 
 
-/**@media (max-width: 900px) {
+@media (max-width: 425px) {
 	body {
-		background: black;
 		width: auto;
 		margin: 20px auto;
 	}
@@ -85,15 +89,18 @@ a:active {
 		justify-content: space-between;
 		align-items: center;
 	}
-	#actv {
-		margin-bottom: 10px;
+	.buy{
+		margin: 10px;
 	}
-	
+	.decision {
+		width: 50%;	
+		align-items: center;
+	}
 	.loverep {
 		width: 25px;
 		height: 25px;
 	}
-}**/
+}
 
 @media (max-width: 768px) {
 	.main-container, .container, .product, .decision {
